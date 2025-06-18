@@ -11,14 +11,24 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 700px;
+    max-width: 70%;
+    border-radius: 0.75rem;
 }
-.card1{
+
+.card{
+    padding: 3.25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: fit-content;
+
+}
+#card1{
     background-color:  #e38826;
 }
-.card2{
+#card2{
     background-color:  #26e3a0;
 }
-.card3{
+#card3{
     background-color:  #004241;
 }
