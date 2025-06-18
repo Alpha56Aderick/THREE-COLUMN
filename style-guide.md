@@ -19,8 +19,8 @@ Very dark cyan: #004241
 
 ### Neutral
 
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+Transparent white (paragraphs): #ffffff
+Very light gray (background, headings, buttons): #f2f2f2
 
 ## Typography
 

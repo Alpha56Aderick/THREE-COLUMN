@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body{
+    background-color:  #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,18 +12,22 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 70%;
+    max-width: 60%;
     border-radius: 0.75rem;
 }
-
+h2{
+    color:  #f2f2f2;
+    font-weight: 700;
+}
 .card{
-    padding: 3.25rem;
+    padding: 2.25rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-height: fit-content;
 
 }
+
 #card1{
     background-color:  #e38826;
 }
@@ -31,4 +36,38 @@ main{
 }
 #card3{
     background-color:  #004241;
+}
+#button1{
+    color:  #e38826; 
+}
+#button2{
+    color:  #26e3a0;
+}
+#button3{
+    color:  #004241; 
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4.75rem;
+}
+.details {
+    color: #ffffff;
+}
+.button{
+    padding: 0.5rem 1.75rem;
+    border-radius: 1.75rem;
+    border:1px solid white;
+}
+@media (max-width: 600px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
