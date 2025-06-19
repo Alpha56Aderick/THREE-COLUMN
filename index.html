@@ -1,60 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3-Column Preview Card</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" href="./images/favicon-32x32.png" />
 </head>
 <body>
-   <main>
-    <section class="card" id="card1">
-      <div class="sedans-icon">
-        <img src="./images/icon-sedans.svg" alt="THE SEDAN ICON">
-      </div>
-      <section>
-        <h2>SEDANS</h2>
-        <div class="description">
-             <p class = "details">
-                Choose a sedan for its affordability and excellent fuel economy. 
-                Ideal for cruising in the city  or on your next road trip.
-             </p>
-           <button class="button" id="button1">Learn More</button>
-           </div>
-       </section>
-  </section>
-        <!-- second card--> 
-     <section class="card" id="card2">
-      <div class="suvs-icon">
-        <img src="./images/icon-suvs.svg" alt="THE SUVS icon">
-      </div>
-      <section>
-        <h2>SUVS</h2> 
-          <div class="description">
-              <p class = "details">
-              Take an SUV for its spacious interior, power, and versatility. 
-              Perfect for your next family vacation and off-road adventures.
-               </p>   
-             <button class="button" id="button2">Learn More</button>
-          </div>  
-      </section>
+  <main class="card-container">
+    
+    <!-- Sedan Card -->
+    <section class="card card--sedan">
+      <img src="./images/icon-sedans.svg" alt="Sedan icon" class="card__icon" />
+      <h2 class="card__title">Sedans</h2>
+      <p class="card__text">
+        Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.
+      </p>
+      <button class="card__button card__button--sedan">Learn More</button>
     </section>
-    <!-- Third card--> 
-        <section class="card" id="card3">
-      <div class="luxury-icon">
-        <img src="./images/icon-luxury.svg" alt="THE LUXURY ICON">
-      </div>
-      <section>
-        <h2>LUXURY</h2>
-            <div class="description">
-              <p class = "details">
-                Cruise in the best car brands without the bloated prices.Enjoy
-                the enhanced comfort of a luxury rental and arrive in style.
-              </p>
-              <button class="button" id="button3">Learn More</button>
-            </div> 
-         </section>
-        </main>
+
+    <!-- SUV Card -->
+    <section class="card card--suv">
+      <img src="./images/icon-suvs.svg" alt="SUV icon" class="card__icon" />
+      <h2 class="card__title">SUVs</h2>
+      <p class="card__text">
+        Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.
+      </p>
+      <button class="card__button card__button--suv">Learn More</button>
+    </section>
+
+    <!-- Luxury Card -->
+    <section class="card card--luxury">
+      <img src="./images/icon-luxury.svg" alt="Luxury car icon" class="card__icon" />
+      <h2 class="card__title">Luxury</h2>
+      <p class="card__text">
+        Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.
+      </p>
+      <button class="card__button card__button--luxury">Learn More</button>
+    </section>
+
+  </main>
 </body>
 </html>
