@@ -59,7 +59,18 @@ body {
   transition: 0.3s ease;
 }
 
-/* Button Hover */
+.card--sedan {
+  background-color: #e38826;
+}
+
+.card--suv {
+  background-color: darkcyan;
+}
+
+.card--luxury {
+  background-color: #004241;
+}
+
 .card__button--sedan:hover {
   background-color: #e38826;
   color: white;
@@ -75,20 +86,7 @@ body {
   color: white;
 }
 
-/* Card Themes */
-.card--sedan {
-  background-color: #e38826;
-}
 
-.card--suv {
-  background-color: darkcyan;
-}
-
-.card--luxury {
-  background-color: #004241;
-}
-
-/* Responsive: Desktop */
 @media (min-width: 768px) {
   .card-container {
     flex-direction: row;
